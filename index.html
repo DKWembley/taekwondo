@@ -28,11 +28,13 @@ body::before {
   transform: translateY(-50%);
   width: 600px;
   height: 600px;
-  background: url("images/taekwondo-silhouette.png") no-repeat center;
+  background: url(./"images/taekwondo-silhouette.png");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
-  opacity: 0.06;   /* controls how faint it is */
+  opacity: 0.08;   /* controls how faint it is */
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
 }
 
 
@@ -265,4 +267,5 @@ body::before {
 
 </body>
 </html>
+
 
